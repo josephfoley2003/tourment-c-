@@ -1,0 +1,145 @@
+using System;
+using System.Linq;
+
+public class Program
+{
+    public static string name;
+    public static void Main(string[] args)
+    {
+        string[] teamOne = new string[5];
+        string[] teamTwo = new string[5];
+        string[] teamThree = new string[5];
+        string[] teamFour = new string[5];
+        Console.WriteLine("choose a team");
+        var member = Console.ReadLine();
+
+        if (member == "team one")
+        {
+            int j = 0;
+            Console.WriteLine("Enter your name.");
+            while (teamOne[4] == null)
+            {
+                var teamOneName = Console.ReadLine();
+                teamOne.SetValue(teamOneName, j);
+                j++;
+            }
+            Console.WriteLine("Enter points.");
+            var points = Console.ReadLine();
+
+
+
+        }
+        else if (member == "team two")
+        {
+            int j = 0;
+            Console.WriteLine("Enter your name.");
+            while (teamTwo[4] == null)
+            {
+                var teamTwoName = Console.ReadLine();
+                teamTwo.SetValue(teamTwoName, j);
+                j++;
+            }
+
+        }
+        else if (member == "team three")
+        {
+            int j = 0;
+            Console.WriteLine("Enter your name.");
+            while (teamThree[4] == null)
+            {
+                var teamThreeName = Console.ReadLine();
+                teamThree.SetValue(teamThreeName, j);
+                j++;
+            }
+        }
+
+        else if (member == "team four")
+        {
+            int j = 0;
+            Console.WriteLine("Enter your name.");
+            while (teamFour[4] == null)
+            {
+                var teamFourName = Console.ReadLine();
+                teamFour.SetValue(teamFourName, j);
+                j++;
+            }
+        }
+
+        string[] names = new string[20];
+        Console.WriteLine("Enter name.");
+        int i = 0;
+
+        while (names[19] == null)
+        {
+            name = Console.ReadLine();
+            names.SetValue(name, i);
+            i++;
+        }
+
+
+
+        Console.WriteLine(names[0]);
+        Console.WriteLine(names[1]);
+        Console.WriteLine(names[2]);
+        Console.WriteLine(names[3]);
+        Console.WriteLine(names[4]);
+        Console.WriteLine(names[5]);
+        Console.WriteLine(names[6]);
+        Console.WriteLine(names[7]);
+        Console.WriteLine(names[8]);
+        Console.WriteLine(names[9]);
+        Console.WriteLine(names[10]);
+        Console.WriteLine(names[11]);
+        Console.WriteLine(names[12]);
+        Console.WriteLine(names[13]);
+        Console.WriteLine(names[14]);
+        Console.WriteLine(names[15]);
+        Console.WriteLine(names[16]);
+        Console.WriteLine(names[17]);
+        Console.WriteLine(names[18]);
+        Console.WriteLine(names[19]);
+
+        names.SetValue(name, 0);
+
+        Console.WriteLine(names[0]);
+
+
+
+
+        var numberTeams = 20;   // must be a power of 2
+        var limit = (int)(Math.Log(numberTeams, 2) + 1);
+
+        for (int round = 1; round < limit; round++)
+        {
+            Console.WriteLine("Round #{0}", round);
+            branch(1, 1, limit - round + 1);
+            Console.WriteLine();
+        }
+    }
+
+    public static void branch(int member, int level, int limit)
+    {
+        var levelSum = (int)Math.Pow(2, level) + 1;
+
+        if (limit == level + 1)
+        {
+            Console.WriteLine(name + " vs. member {1}", member, levelSum - member);
+            return;
+        }
+        else if (member % 2 == 1)
+        {
+            branch(member, level + 1, limit);
+            branch(levelSum - member, level + 1, limit);
+        }
+        else
+        {
+            branch(levelSum - member, level + 1, limit);
+            branch(member, level + 1, limit);
+        }
+    }
+}
+
+
+
+
+
