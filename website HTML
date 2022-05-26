@@ -1,0 +1,583 @@
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/index.html">Home</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/causes.html">Web development causes</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Application.html">Application</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/profile.html">Profile</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/job%20spec.html">Jobs specification</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Contact%20us.html">Contact us</a></li>
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+</ul>
+
+</body>
+</html>
+
+
+
+<p>Welcome 
+your here to apply for an caurse the involves ICT use the  headers to see what you need and what we offer as a company
+ </p>
+<img src="\\Y-STORAGE06\Y-W-STU-04-H\758249\Work\kevins code\images\ict.jpg" alt="ict">
+
+</body>
+</html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+
+
+  <div class="w3-padding w3-xlarge w3-text-orange">
+
+
+  <p><button class="w3-btn w3-orange w3-xlarge">Button<i class="w3-margin-left fa fa-home"></i></button></p>
+      <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-left"></i></button></p>
+	      <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-right"></i></button></p>
+
+
+</div>
+
+</body>
+</html> 
+
+page 2
+<!DOCTYPE html>
+<html>
+<head>
+<title>Causes</title>
+</head>
+<body>
+
+<h1>Causes<h1>
+
+
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/index.html">Home</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/causes.html">Web development causes</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Application.html">Application</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/profile.html">Profile</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/job%20spec.html">Jobs specification</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Contact%20us.html">Contact us</a></li>
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+</ul>
+
+
+</body>
+</html>
+
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+
+
+
+ 
+  <img src="\\Y-STORAGE06\Y-W-STU-04-H\758249\Work\kevins code\images\ict caurse 1.jpg" alt="ict">
+  <div class="ict caurse 1.jpg"><h2 class="underlined"> Diplomas in IT (Software Networks and General Pathways)  Level 3</h2><p>This qualification has been designed for the IT practitioner across themes predominant in the IT industry. Get engaged with this next generation qualification to support the economic growth and computing skills gaps in the Sheffield City Region; providing a crucial service to business and organisations with systems support and computer specialisms, which are rarely short of employment opportunities.  </p> </div>
+
+  <img src="\\Y-STORAGE06\Y-W-STU-04-H\758249\Work\kevins code\images\ict caurse 2.jpg" alt="ict">
+  <div class="ict caurse 2.jpg"><h2 class="underlined">Introductory Diploma in Information Technology  Level 1</h2><p>This course has been designed to provide an introduction to the exciting fields of IT and Computing. We have excellent facilities and opportunities for work experience at leading companies. The course features several trips out to companies and visiting speakers will come in and discuss live projects. </p>
+  
+  
+  
+  <p><button class="w3-btn w3-orange w3-xlarge">Button<i class="w3-margin-left fa fa-home"></i></button></p>
+    <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-left"></i></button></p>
+	      <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-right"></i></button></p>
+
+</div>
+
+</body>
+</html> 
+
+page 3
+<!DOCTYPE html>
+<html>
+<head>
+<title>Application</title>
+</head>
+<body>
+
+<h1>Application<h1>
+
+
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/index.html">Home</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/causes.html">Web development causes</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Application.html">Application</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/profile.html">Profile</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/job%20spec.html">Jobs specification</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Contact%20us.html">Contact us</a></li>
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+</ul>
+
+</body>
+</html>
+<h2>Fill in this a form</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="lname">age:</label><br>
+  <input type="text" id="age" name="age" value=""><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>click the "sumbit" button to us your infomation.</p>
+
+</body>
+</html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+
+
+  <div class="w3-padding w3-xlarge w3-text-orange">
+
+
+  <p><button class="w3-btn w3-orange w3-xlarge">Button<i class="w3-margin-left fa fa-home"></i></button></p>
+  <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-left"></i></button></p>
+	      <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-right"></i></button></p>
+
+
+</div>
+
+</body>
+</html> 
+
+page 4
+<!DOCTYPE html>
+<html>
+<head>
+<title>Profile</title>
+</head>
+<body>
+
+<h1>Profile<h1>
+
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/index.html">Home</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/causes.html">Web development causes</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Application.html">Application</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/profile.html">Profile</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/job%20spec.html">Jobs specification</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Contact%20us.html">Contact us</a></li>
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+</ul>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 25%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <img src="\\Y-STORAGE06\Y-W-STU-04-H\758249\Work\kevins code\images\download.JFIF" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text">learn more by doing your own rescreach</div>
+  </div>
+</div>
+
+</body>
+</html>
+<p>ICT (information and communications technology – or technologies) is an umbrella term that includes any communication device, medium, application, or technologies that provide access to information through telecommunications. This includes the Internet, Fibre Optic Networks, Fixed and Mobile Wireless networks, and other communication mediums. In the past few decades, information and communication technologies have provided society with a vast array of new communication capabilities. As such modern information and communication technologies have created a “global village,” in which people can communicate with others across the world as if they were living next door.</p>
+
+
+  <p><button class="w3-btn w3-orange w3-xlarge">Button<i class="w3-margin-left fa fa-home"></i></button></p>
+  <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-left"></i></button></p>
+	      <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-right"></i></button></p>
+
+
+</div>
+
+</body>
+</html> 
+
+
+
+
+</body>
+</html>
+
+page 5
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jobs specification</title>
+</head>
+<body>
+
+<h1>Jobs specification<h1>
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+   <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/index.html">Home</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/causes.html">Web development causes</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Application.html">Application</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/profile.html">Profile</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/job%20spec.html">Jobs specification</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Contact%20us.html">Contact us</a></li>
+  
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+</ul>
+
+</body>
+</html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+</head>
+<body>
+
+<img src="\\Y-STORAGE06\Y-W-STU-04-H\758249\Work\kevins code\images\download.jfif" alt="ict" class="center">
+
+ 
+  <p>Job brief
+We are looking for a qualified IT Technician that will install and maintain computer systems and networks aiming for the highest functionality. You will also “train” users of the systems to make appropriate and safe usage of the IT infrastructure.
+
+A successful IT Technician must have a thorough knowledge of computer software and hardware and a variety of internet applications, networks and operating systems. The ideal candidate will also have great troubleshooting abilities and attention to detail.
+
+The goal is to build and maintain updated and efficient computer systems and networks to optimize the role of technology on business sustainability.
+
+Responsibilities
+Set up workstations with computers and necessary peripheral devices (routers, printers etc.)
+Check computer hardware (HDD, mouses, keyboards etc.) to ensure functionality
+Install and configure appropriate software and functions according to specifications
+Develop and maintain local networks in ways that optimize performance
+Ensure security and privacy of networks and computer systems
+Provide orientation and guidance to users on how to operate new software and computer equipment
+Organize and schedule upgrades and maintenance without deterring others from completing their work</p>
+
+
+  <p><button class="w3-btn w3-orange w3-xlarge">Button<i class="w3-margin-left fa fa-home"></i></button></p>
+    <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-left"></i></button></p>
+	      <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-right"></i></button></p>
+
+
+</div>
+
+</body>
+</html> 
+
+page 6
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact us</title>
+</head>
+<body>
+
+<h1>Contact us<h1>
+
+
+
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/index.html">Home</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/causes.html">Web development causes</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Application.html">Application</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/profile.html">Profile</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/job%20spec.html">Jobs specification</a></li>
+  <li><a href="file://y-storage06/Y-W-STU-04-H/758249/Work/kevins%20code/Contact%20us.html">Contact us</a></li>
+
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+</ul>
+
+
+ <p>Phone Number:447700184669<br>Twitter: https://twitter.com/Beans=en<br>Email:Beans@gmail.com<br>Facebook:https://www.facebook.com/beans/</p>
+</body>
+</html>
+
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+
+
+
+  <div class="w3-padding w3-xlarge w3-text-orange">
+
+
+  <p><button class="w3-btn w3-orange w3-xlarge">Button<i class="w3-margin-left fa fa-home"></i></button></p>
+   <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-left"></i></button></p>
+	      <p><button class="w3-btn w3-orange w3-xlarge"><i class="fa fa-arrow-right"></i></button></p>
+
+
+</div>
+
+</body>
+</html> 
