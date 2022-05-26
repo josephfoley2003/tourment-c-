@@ -1,0 +1,318 @@
+import React, { Component } from 'react'
+import {
+  StyleSheet,
+  TouchableOpacity,
+  Text,
+  View,
+  Image
+} from 'react-native'
+ 
+ 
+ 
+class App extends Component {
+  state = {
+    count: 0
+ 
+ 
+  }
+ 
+ 
+ goToScreenOne = () => {
+    this.setState({
+      count: 0
+    })
+  }
+ 
+  goToScreenTwo = () => {
+    this.setState({
+      count: 1
+    })
+  }
+ 
+  goToScreenThree = () => {
+    this.setState({
+      count: 2
+    })
+  }
+ 
+  goToScreenFour = () => {
+    this.setState({
+      count: 3
+    })
+  }
+ 
+  goToScreenFive = () => {
+    this.setState({
+      count: 4
+    })
+  }
+ 
+ 
+ 
+  render() {
+    if (this.state.count == 0){
+      return (
+        <View style={styles.container}>
+        <ScreenOne onPress={this.goToScreenTwo}/>.
+        </View>
+      )
+  }
+ else if (this.state.count == 1) {
+return (
+ <View style={styles.container}>
+   <ScreenTwo onPress={this.goToScreenThree} onPressIncorrect={this.goToScreenFive}/>
+ </View>
+ )
+}
+ else if (this.state.count == 2) {
+return (
+ <View style={styles.container}>
+   <ScreenThree onPress={this.goToScreenFour} onPressIncorrect={this.goToScreenFive}/>.
+ </View>
+ )
+ }
+ else if (this.state.count == 3) {
+   return(
+     <View style={styles.container}>
+     <ScreenFour onPress={this.goToScreenOne} />
+     </View>
+   )
+ }
+ else if (this.state.count == 4) {
+   return(
+     <View style={styles.container}>
+     <ScreenFive onPress={this.goToScreenOne} />
+     </View>
+   )
+ }
+}
+}
+ 
+ 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  button: {
+    alignItems: 'center',
+    backgroundColor: 'red',
+    padding: 10,
+    marginBottom: 10,
+  },
+  buttonText:{
+  color:'white',
+    alignItems: 'center',
+    backgroundColor: 'red',
+    padding: 8,
+    marginBottom: 8,
+  }
+});
+ 
+ 
+ 
+ 
+class AppButton extends Component {
+ render() {
+     return (
+    <View style={styles.button}>
+      <TouchableOpacity
+         style={styles.button} onPress={this.props.onPress}>
+         <Text style={styles.buttonText}>A</Text>
+        </TouchableOpacity>
+    </View>
+  );
+  }
+}
+ 
+ 
+ 
+class Mysecoundbutton extends Component {
+render() {
+return (
+<View style={styles.button}>
+<TouchableOpacity
+onPress={this.props.onPress}
+style={styles.button}>
+<Text style={styles.buttonText}>B</Text>
+</TouchableOpacity>
+</View>
+)
+}
+}
+ 
+ 
+class Mythirdbutton extends Component {
+render() {
+return (
+<View style={styles.button}>
+<TouchableOpacity
+style={styles.button}>
+<Text style={styles.buttonText}>C</Text>
+</TouchableOpacity>
+</View>
+)
+ 
+}
+ 
+}
+ 
+class IncorrectButtonOne extends Component {
+  render() {
+    return(
+      <View style={styles.button}>
+        <TouchableOpacity
+        style={styles.button}
+        onPress={this.props.onPressIncorrect}>
+        <Text style={styles.buttonText}>A</Text>
+        </TouchableOpacity>
+      </View>
+    )
+  }
+}
+ 
+class IncorrectButtonTwo extends Component {
+  render() {
+    return(
+      <View style={styles.button}>
+        <TouchableOpacity
+        style={styles.button}
+        onPress={this.props.onPressIncorrect}>
+        <Text style={styles.buttonText}>B</Text>
+        </TouchableOpacity>
+      </View>
+    )
+  }
+}
+ 
+class IncorrectButtonThree extends Component {
+  render() {
+    return(
+      <View style={styles.button}>
+      <TouchableOpacity
+      style={styles.button}
+      onPress={this.props.onPressIncorrect}>
+      <Text style={styles.buttonText}>C</Text>
+      </TouchableOpacity>
+      </View>
+    )
+  }
+}
+ 
+class ContinueButton extends Component {
+render() {
+return (
+<View style={styles.button}>
+<TouchableOpacity
+style={styles.button} onPress={this.props.onPress}>
+<Text style={styles.buttonText}>Continue</Text>
+</TouchableOpacity>
+</View>
+)
+ 
+}
+ 
+}
+ 
+ 
+class MyImage extends Component{
+  render(){
+  return(
+<Image
+       source={{uri: "https://www.collinsdictionary.com/images/full/apple_158989157.jpg" }}
+        style={{width: 200, height: 200}}
+ 
+      ></Image>
+);
+}
+}
+ 
+ class ScreenTwo extends Component {
+   render() {
+    return (
+      <View style={styles.container}>
+        <AppButton onPress={this.props.onPress}/>
+         <IncorrectButtonTwo onPressIncorrect={this.props.onPressIncorrect}/>
+         <IncorrectButtonThree onPressIncorrect={this.props.onPressIncorrect} />
+         <MyImage />
+         <Text style={{fontSize: 30,}}> what letter does the image start with? </Text>
+      </View>
+    )
+}
+}
+ 
+ class ScreenOne extends Component {
+   render() {
+    return (
+      <View>
+      <Text style={{fontSize: 30,}}>Learn The Alphabet</Text>
+              <Image  
+     
+        source={{uri: "https://cdn.vox-cdn.com/thumbor/nVZHtI2lgOW7gnJ6fFUQ_yZckjU=/0x0:5515x3677/920x613/filters:focal(2316x1397:3198x2279):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/63704823/shutterstock_219966547.0.1462672707.0.jpg" }}
+       
+        style={{width: 200, height: 200}}
+      />
+   <ContinueButton onPress={this.props.onPress}/>
+     
+       
+    </View>
+    )
+}
+}
+ 
+class ScreenThree extends Component {
+   render() {
+    return (
+  <View>
+      <Image
+        source={{uri: "https://api.time.com/wp-content/uploads/2019/11/gettyimages-459761948.jpg?quality=85&w=1024&h=512&crop=1"}}
+ 
+       
+        style={{width: 200, height: 200}}
+      />
+      <Text style={{fontSize: 30,}}>What does image start with?  </Text>
+      <IncorrectButtonOne onPressIncorrect={this.props.onPressIncorrect}/>
+         <Mysecoundbutton onPress={this.props.onPress} />
+         <IncorrectButtonThree onPressIncorrect={this.props.onPressIncorrect} />
+         
+ 
+    </View>
+ 
+    )
+}
+}
+ 
+class ScreenFour extends Component {
+  render() {
+    return(
+      <View style={styles.container}>
+      <Text>You got it correct!</Text>
+      <ContinueButton onPress={this.props.onPress}/>
+      </View>
+    )
+  }
+}
+ 
+class ScreenFive extends Component {
+  render() {
+    return(
+      <View style={styles.container}>
+      <Text>You got it incorrect. Try again!</Text>
+      <ContinueButton onPress={this.props.onPress}/>
+      </View>
+    )
+  }
+}
+ 
+ 
+export default App;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
